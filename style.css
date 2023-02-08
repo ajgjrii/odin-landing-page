@@ -7,6 +7,7 @@ body {
 img {
     height: 150px;
     border-radius: 15px;
+    background-color: white;
 }
 
 .content{
@@ -52,4 +53,26 @@ img {
     display: flex;
     flex-direction: column;
     min-width: 300px;
+}
+
+.part2-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alldinos {
+    display: flex;
+    flex: 1;
+    gap: 25px;
+}
+
+dino1,
+dino2,
+dino3,
+dino4 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
 }
