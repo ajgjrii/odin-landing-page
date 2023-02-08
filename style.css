@@ -5,7 +5,7 @@ body {
 }
 
 img {
-    height: 150px;
+    max-width: 150px;
     border-radius: 15px;
     background-color: white;
 }
@@ -27,7 +27,7 @@ img {
 }
 
 .part2 {
-    background-color: blue;
+    background-color: lightblue;
 }
 
 .part3 {
@@ -67,12 +67,10 @@ img {
     gap: 25px;
 }
 
-dino1,
-dino2,
-dino3,
-dino4 {
+
+.dino {
     display: flex;
+    flex: 1;
+    align-items: center;
     flex-direction: column;
-    flex-basis: 0;
-    flex-grow: 1;
 }
