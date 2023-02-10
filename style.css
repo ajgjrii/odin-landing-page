@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-size: 18px;
 }
 
 img {
@@ -23,7 +24,7 @@ img {
 }
 
 .part1 {
-    background-color: red;
+    background-color: #c96060;
 }
 
 .part2 {
@@ -47,6 +48,7 @@ img {
 .intro {
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 .left-1 {
@@ -73,4 +75,15 @@ img {
     flex: 1;
     align-items: center;
     flex-direction: column;
+}
+
+.quote {
+    font-size: 50px;
+    margin-bottom: 0px
+}
+
+.author {
+    text-align: right;
+    font-size: 40px;
+    margin-top: 0px;
 }
