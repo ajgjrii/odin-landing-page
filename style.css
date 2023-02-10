@@ -9,6 +9,15 @@ body {
     font-family: sans-serif
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(213, 157, 0);
+}
+
 .header {
     display: flex;
     background: rgb(50, 50, 50);
@@ -43,7 +52,7 @@ ul {
 
 li {
     list-style: none;
-    color: white;
+    color: rgb(194, 194, 194);
 }
 
 .acceptable {
@@ -53,6 +62,7 @@ li {
 
 .dino-image {
     max-width: 150px;
+    min-height: 150px;
     border-radius: 15px;
     background-color: white;
     opacity: 1;
@@ -71,19 +81,23 @@ li {
 }
 
 .part1 {
-    background-color: rgb(201, 96, 96, 0.8);
+    background-color: rgb(96, 134, 201, .8);
+    color: rgb(255 255 255);
 }
 
 .part2 {
-    background-color: rgb(173, 216, 230, 0.8);
+    background-color: rgb(134 134 134);
+    color: rgb(255 255 0)
 }
 
 .part3 {
-    background-color: rgb(255, 255, 0, 0.8);
+    background-color: rgb(0 0 255 / 0.8);
+    color: rgb(255 255 255)
 }
 
 .part4 {
-    background-color: rgb(0, 128, 0, 0.8);
+    background-color: rgb(134 134 134);
+    color: rgb(0 0 0);
 }
 
 .intro {
@@ -136,7 +150,7 @@ li {
 }
 
 .banner {
-    background: deeppink;
+    background: rgb(89 164 255);
     display: flex;
     flex: 1;
     padding-left: 25px;
@@ -152,12 +166,14 @@ button {
     flex-shrink: 0;
     height: fit-content;
     font-size: 24px;
-    padding: 5px;
+    padding: 12px;
     border-radius: 10px;
-    background: cyan;
+    background: rgba(0, 43, 151);
+    color: rgb(255,255,255);
 }
 
 .top-button {
     margin-top: 0px;
     margin-left: 0px;
 }
+
