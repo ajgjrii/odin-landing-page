@@ -2,8 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-size: 18px;
+    font-size: 20px;
 }
+
 
 img {
     max-width: 150px;
@@ -79,11 +80,39 @@ img {
 
 .quote {
     font-size: 50px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    text-align: justify;
 }
 
 .author {
     text-align: right;
     font-size: 40px;
     margin-top: 0px;
+}
+
+.banner {
+    background: deeppink;
+    display: flex;
+    flex: 1;
+    padding-left: 25px;
+    margin: 25px;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+button {
+    margin: 45px;
+    display: flex;
+    flex-shrink: 0;
+    height: fit-content;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 10px;
+    background: cyan;
+}
+
+.top-button {
+    margin-top: 0px;
+    margin-left: 0px;
 }
